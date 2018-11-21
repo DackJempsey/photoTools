@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/DackJempsey/photoTools.svg?token=VM5Q2KTk6m3qqXch6Avf&branch=master)](https://travis-ci.com/DackJempsey/photoTools)
+
 Written by Jack Dempsey:Jack.n.Dempsey@colorado.edu
 There are three sections to this README: 
 
