@@ -11,6 +11,7 @@ to compile both programs enter:
 `
 $make clean
 `
+then
 `
 $make
 `
