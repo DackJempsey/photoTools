@@ -1,0 +1,4 @@
+language: C++
+gcc:
+  -4.8.4
+script: make
