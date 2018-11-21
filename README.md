@@ -8,8 +8,12 @@ Dependancies: g++ 4.2.1 or higher
 OS: These programs have been made to work on Linux(Debian/Ubuntu), and also work on macOS(High Sierra)
 This program is written in c++, induced in the src directory is a Makefile
 to compile both programs enter:
+`
 $make clean
+`
+`
 $make
+`
 This is will compile both Deduplify and jsonBlob.
 These are the two programs for the challenge.
 
