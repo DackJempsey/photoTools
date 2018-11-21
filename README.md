@@ -1,6 +1,7 @@
-This is the README for the NatureSnapz coding challenge(Deduplify and jsonBlob)
 Written by Jack Dempsey:Jack.n.Dempsey@colorado.edu
-There are three sections to this README: Usage, Descriptions, and Implementation decisions.
+There are three sections to this README: 
+
+Usage, Descriptions, and Implementation decisions.
 
 # Usage 
 Dependancies: g++ 4.2.1 or higher 
