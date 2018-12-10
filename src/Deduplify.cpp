@@ -61,8 +61,9 @@ Hash::Hash(int  key)
     Hash::unqFiles = 0;
 } 
 Hash::~Hash(){
-	delete table;
-	
+	delete []table;
+	//cout<<"cleaned up if "<<table[0].size()<<" = 0"<<endl;
+
 }
 
 
