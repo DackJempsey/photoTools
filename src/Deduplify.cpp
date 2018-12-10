@@ -60,8 +60,13 @@ Hash::Hash(int  key)
     Hash::check_largestDir = 0;
     Hash::unqFiles = 0;
 } 
+Hash::~Hash(){
+	delete table;
+	
+}
 
- 
+
+
 int Hash::insertItem(string photo,Hash *h) { 
 	//returns length of chain if greater than 1 than duplicate
     int index = hashFunc(photo, h);
@@ -87,6 +92,7 @@ int Hash::insertItem(string photo,Hash *h) {
 	table[index].push_back(photo);
 	return table[index].size();
 }
+
 
 //this function also searches for photos
 vector <string> findDirs(string dirname,string newDir,Hash *h){

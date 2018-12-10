@@ -12,6 +12,7 @@ class Hash
 
     public: 
 		Hash(int key);  // Constructor 
+		~Hash();        //Destructor
 		vector <int> max;//max number of duplicates, is vector if all have the same number of duplicates 
 		vector <string> maxName; //name of most duplicated
 		int files; //total files
